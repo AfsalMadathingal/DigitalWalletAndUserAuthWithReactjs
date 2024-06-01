@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0a3b45;
+  background-image: linear-gradient(
+    19deg,
+    #000000 0%,
+    #440862 57%,
+    #262626 100%
+  );
+
+  font-family: "Roboto", sans-serif;
+  color: #333;
+
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #0f1625 0%, #34113b  51%, #152958  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  border-radius: 10px;
+
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
